@@ -7,9 +7,11 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.LoginPage;
+import pageObjects.ViewProfilePage;
 import resources.baseClass.BaseClass;
 import resources.utils.Utils;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 
 
@@ -49,4 +51,16 @@ public class TestRunner extends BaseClass {
         LoginPage loginPage = new LoginPage();
         loginPage.fillDetails();
     }
+    @Test(priority = 2)
+    public void ProfilePage() throws IOException {
+        logger.info("Clicking on the View Profile Page Button");
+        ViewProfilePage viewProfle = new ViewProfilePage();
+        viewProfle.checkProfilePagebtn();
+        logger.info("Successfully got Into View profile tab");
+
+        viewProfle.selectUpdateProfilebtn();
+        logger.info("Profile Pic updated Successfully");
+    }
+
+
 }
