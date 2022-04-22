@@ -27,7 +27,7 @@ public class LoginPage extends BaseClass {
     }
 
     public void fillDetails() throws IOException {
-        String excelFilePath = properties.getProperty("excelPath"); //Locating Excel File path
+        String excelFilePath = properties.getProperty("userExcelPath"); //Locating Excel File path
         FileInputStream fis = new FileInputStream(excelFilePath);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheet("Sheet1");

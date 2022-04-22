@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.LoginPage;
+import pageObjects.ProjectsPage;
 import resources.baseClass.BaseClass;
 import resources.utils.Utils;
 
@@ -49,4 +50,41 @@ public class TestRunner extends BaseClass {
         LoginPage loginPage = new LoginPage();
         loginPage.fillDetails();
     }
+
+    @Test(priority = 2)
+    public void checkUrl() {
+        ProjectsPage projectsPage = new ProjectsPage();
+        String actual = projectsPage.checkProjectFieldBtn();
+
+    }
+
+    @Test(priority = 3)
+    public void selectItems() throws InterruptedException {
+        ProjectsPage projectsPage = new ProjectsPage();
+        String selectTechnologyText = projectsPage.selectTechnology();
+        String insideDescriptionText = projectsPage.description();
+        if (insideDescriptionText.contains(selectTechnologyText))
+            Assert.assertEquals(0, 0);                   // PASSING IT
+        else
+            Assert.fail();
+    }
+
+    @Test(priority = 4)
+    public void positiveSearch() throws InterruptedException {
+        ProjectsPage projectsPage = new ProjectsPage();
+        Assert.assertTrue(projectsPage.searchForPositive());
+    }
+
+    @Test(priority = 5)
+    public void negativeSearch() {
+        ProjectsPage projectsPage = new ProjectsPage();
+        Assert.assertTrue(projectsPage.searchForNegative());
+    }
+
+    @Test(priority = 6)
+    public void checkApplyBtn() throws InterruptedException {
+        ProjectsPage projectsPage = new ProjectsPage();
+        Assert.assertEquals(projectsPage.applyForVacancy(),"Successfully Applied!");
+    }
 }
+
