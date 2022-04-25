@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e28d423-374a-4d58-b0f7-12c0eac0ba8c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log4j/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Extent_Report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProjectsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserLoginTest/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserLoginTest/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ProjectsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ProjectsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ViewProfile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/UserLoginTest/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserLoginTest/TestRunner.class" afterDir="false" />
-    </list>
+    <list default="true" id="7e28d423-374a-4d58-b0f7-12c0eac0ba8c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +63,7 @@
       <recent name="C:\Users\asharjil\IdeaProjects\Selenium_Assignment\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner (2)">
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="C:/Users/asharjil/IdeaProjects/Selenium_Assignment/testngParallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Assignment" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testngParallel.xml" />
