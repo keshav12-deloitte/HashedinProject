@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e28d423-374a-4d58-b0f7-12c0eac0ba8c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Log4j/applog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Log4j/applog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/Extent_Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Extent_Report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Extent_Report.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ProjectsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ProjectsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserLoginTest/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserLoginTest/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ProjectsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ProjectsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ViewProfile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/UserLoginTest/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/UserLoginTest/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +176,32 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pageObjects/ViewAppliedPositionPage.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Selenium_Assignment$HomePageTest.ic" NAME="HomePageTest Coverage Results" MODIFIED="1649908589960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

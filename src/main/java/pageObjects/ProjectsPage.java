@@ -42,6 +42,11 @@ public class ProjectsPage extends BaseClass {
     @FindBy(xpath = "//button[contains(text(),'OK')]")
     WebElement alertOkbtn;
 
+    @FindBy(xpath = "//div[@class='project-details-title']/child::h2/b")
+    WebElement projectTitle;
+
+    public static String projectName = null;
+
     public ProjectsPage() {
         PageFactory.initElements(driver,this);
     }
@@ -89,10 +94,13 @@ public class ProjectsPage extends BaseClass {
         searchForBtn.clear();;
         searchForBtn.sendKeys("dont");
         viewDetailsBtn.click();
+        projectName = driver.findElement(By.xpath("//div[@class='project-details-title']//h2//b")).getText();
+        System.out.println("Project Name is " + projectName);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", applyBtn);
         Utils.wait(5000);
         applyBtn.click();
+        Utils.wait(5000);
         String actualMsg = successfulMsg.getText();
         System.out.println("actual is " + actualMsg);
         alertOkbtn.click();
