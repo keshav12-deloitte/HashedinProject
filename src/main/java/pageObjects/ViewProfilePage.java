@@ -4,15 +4,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import resources.baseClass.BaseClass;
+import resources.utils.Utils;
 
 import java.io.File;
+
 public class ViewProfilePage extends BaseClass {
 
     @FindBy(xpath = "//a[normalize-space()='VIEW PROFILE']")
     WebElement profileField;
     @FindBy(xpath = "//*[@id=\"root\"]/div/div/div[2]/div[2]/div/div/div[1]/div[1]/div/div/div/div/div/input")
     WebElement updateProfileBtn;
-    @FindBy(xpath = "/html/body/div[3]/div/div/div[3]/button")
+    @FindBy(xpath = "//*[@class='btn btn-primary']")
     WebElement confirmPic;
 
     public ViewProfilePage() {
@@ -25,11 +27,15 @@ public class ViewProfilePage extends BaseClass {
         return profileUrl;
     }
 
-    public void selectUpdateProfilebtn() {
+    public void selectUpdateProfilebtn() throws InterruptedException {
         String profilepicpath = properties.getProperty("profilePic");
+        Utils.wait(3000);
         File file = new File(new File(profilepicpath).getAbsolutePath());
+        Utils.wait(3000);
         String path = String.valueOf(file);
+        Utils.wait(3000);
         updateProfileBtn.sendKeys(path);
+        Utils.wait(3000);
         confirmPic.click();
     }
 }

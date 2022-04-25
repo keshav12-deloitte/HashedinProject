@@ -239,134 +239,592 @@ INFO    2022-04-20 17:07:04,886 [main] UserLoginTest.TestRunner  - Login into th
 INFO    2022-04-20 17:08:22,681 [main] UserLoginTest.TestRunner  - Driver is initialized!!
 INFO    2022-04-20 17:08:27,241 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
 INFO    2022-04-20 17:08:27,430 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 11:05:24,724 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 11:05:32,975 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 11:05:33,118 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 11:52:19,893 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 11:52:27,773 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 11:52:27,906 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:06:57,452 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:10:55,467 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:11:03,458 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:11:03,606 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:19:23,139 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:19:31,116 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:19:31,252 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:19:54,630 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:20:03,445 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:20:03,572 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:22:53,834 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:23:00,918 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:23:01,052 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:23:01,641 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:32:12,845 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:32:20,998 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:32:21,118 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:32:21,699 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:34:07,073 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:34:15,374 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:34:15,512 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:35:24,797 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:35:29,563 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:35:29,680 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:35:30,284 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 12:52:21,560 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 12:52:28,892 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 12:52:29,028 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 12:52:29,632 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 13:05:15,385 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 13:05:23,684 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 13:05:23,830 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 13:05:24,433 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 13:44:11,408 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 13:44:19,721 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 13:44:19,859 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 13:44:20,655 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:26:54,351 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:27:01,691 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:27:01,840 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:27:02,819 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:27:48,989 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:27:56,284 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:27:56,429 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:27:57,261 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:29:23,692 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:29:31,888 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:29:32,047 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:29:32,845 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:41:01,204 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:41:09,380 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:41:09,535 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:41:10,282 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:43:24,517 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:43:31,930 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:43:32,086 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:43:32,881 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:50:13,309 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:50:22,185 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:50:22,349 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:50:23,108 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:52:02,597 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:52:09,889 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:52:10,050 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:52:10,841 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:53:23,782 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:53:31,179 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:53:31,335 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:53:32,165 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:56:34,882 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:56:42,201 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:56:42,368 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:56:43,186 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 14:58:41,168 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 14:58:49,015 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 14:58:49,188 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 14:58:49,987 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:13:39,570 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:13:47,864 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:13:48,044 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:13:48,876 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:16:17,797 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:16:22,916 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:16:23,072 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:16:23,844 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:17:07,850 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:17:16,064 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:17:16,211 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:17:16,984 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:20:46,079 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:20:54,109 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:20:54,260 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:20:55,051 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:24:03,155 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:24:08,216 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:24:08,371 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:24:09,119 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:26:17,105 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:26:25,500 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:26:25,650 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:26:26,473 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 15:31:38,800 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 15:31:46,950 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 15:31:47,109 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 15:31:47,855 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 16:05:42,801 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 16:05:50,342 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 16:05:50,507 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 16:05:51,387 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 16:40:01,306 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 16:40:10,948 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 16:40:11,095 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 16:40:11,942 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 16:49:48,458 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 16:49:56,226 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 16:49:56,370 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 16:49:57,245 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 16:50:33,909 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 16:50:41,575 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 16:50:41,734 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 16:50:42,559 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
-INFO    2022-04-21 16:53:37,124 [main] UserLoginTest.TestRunner  - Driver is initialized!!
-INFO    2022-04-21 16:53:45,696 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
-INFO    2022-04-21 16:53:45,854 [main] UserLoginTest.TestRunner  - Login into the application
-INFO    2022-04-21 16:53:46,687 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-21 12:33:59,464 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:34:03,928 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:34:04,104 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 12:34:45,416 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:34:50,205 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:34:50,383 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 12:43:30,327 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:43:35,010 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:43:35,075 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 12:57:32,024 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:57:37,957 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:57:38,251 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 12:58:49,216 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:58:53,968 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:58:54,166 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 12:59:36,430 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 12:59:40,888 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 12:59:41,061 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:00:05,889 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:00:10,345 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:00:10,538 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:20:59,750 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:21:05,319 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:21:05,498 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:21:32,118 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:21:36,703 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:21:36,894 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:24:17,360 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:24:23,014 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:24:23,199 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:25:56,098 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:26:02,143 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:26:02,312 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:26:55,780 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:27:01,583 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:27:01,777 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 13:27:22,227 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 13:27:26,593 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 13:27:26,789 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:38:39,878 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:38:45,465 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:38:45,663 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:39:46,811 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:39:52,233 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:39:52,453 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:40:10,212 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:40:16,147 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:40:16,387 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:40:44,092 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:40:48,470 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:40:48,654 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:41:52,982 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:42:00,234 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:42:00,427 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:42:41,582 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:42:45,991 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:42:46,258 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:44:03,067 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:44:08,325 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:44:08,520 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:49:12,669 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:49:18,201 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:49:18,456 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:50:01,828 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:50:06,260 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:50:06,429 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:53:33,087 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:53:37,568 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:53:37,772 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:54:11,250 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:54:16,401 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:54:16,600 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 14:55:13,990 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 14:55:20,322 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 14:55:20,522 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 15:14:04,279 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 15:14:08,717 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 15:14:08,890 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 15:20:54,516 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 15:20:58,958 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 15:20:59,132 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 15:38:01,057 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 15:38:05,636 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 15:38:05,842 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-21 15:48:19,515 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-21 15:48:24,000 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-21 15:48:24,198 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 09:57:38,312 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 09:57:42,930 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 09:57:43,074 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 09:58:31,229 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 09:58:35,564 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 09:58:35,700 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:00:00,722 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:00:05,258 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:00:05,427 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:01:29,498 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:01:34,730 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:01:34,855 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:03:14,026 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:03:18,400 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:03:18,537 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:04:25,224 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:04:29,644 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:04:29,774 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:05:49,950 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:05:54,553 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:05:54,692 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:09:26,830 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:09:32,349 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:09:32,490 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:16:10,302 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:16:14,911 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:16:15,057 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:19:05,028 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:19:09,420 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:19:09,562 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 10:21:27,776 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 10:21:32,142 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 10:21:32,284 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:06:48,609 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:06:52,891 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:06:53,033 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:11:41,457 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:11:46,076 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:11:46,221 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:12:30,637 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:12:34,953 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:12:35,088 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:14:21,161 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:14:25,821 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:14:25,974 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:16:36,526 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:16:42,060 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:16:42,197 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:19:18,611 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:19:22,818 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:19:22,977 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:20:23,237 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:20:28,558 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:20:28,744 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:21:32,336 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:21:36,726 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:21:36,913 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:24:14,916 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:24:19,376 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:24:19,560 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:25:46,665 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:25:52,896 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:25:53,215 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:27:10,830 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:27:15,380 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:27:15,534 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:33:27,944 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:33:32,344 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:33:32,518 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:34:40,868 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:34:45,227 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:34:45,445 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:41:04,831 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:41:09,352 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:41:09,525 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:45:21,968 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:45:26,030 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:45:26,207 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:49:20,255 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:49:24,715 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:49:24,942 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:52:33,335 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:52:38,950 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:52:39,139 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:54:15,637 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:54:21,118 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:54:21,326 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 11:58:58,278 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 11:59:03,568 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 11:59:03,776 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 12:04:01,294 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 12:04:07,046 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 12:04:07,237 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 12:07:28,457 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 12:07:32,851 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 12:07:33,085 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 14:09:47,470 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 14:09:52,001 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 14:09:52,186 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 14:12:55,636 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 14:12:59,774 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 14:12:59,976 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 14:15:03,273 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 14:15:07,696 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 14:15:07,864 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:30:03,086 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:30:06,731 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:30:06,896 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:37:04,496 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:37:09,378 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:37:09,560 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:39:02,383 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:39:06,946 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:39:07,143 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:41:11,259 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:41:16,913 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:41:17,101 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:51:07,516 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:51:12,051 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:51:12,252 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 15:55:14,874 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 15:55:20,898 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 15:55:21,222 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 16:05:27,524 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 16:05:32,366 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 16:05:32,683 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 16:07:23,800 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 16:07:28,257 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 16:07:28,450 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 16:09:43,696 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 16:09:48,344 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 16:09:48,536 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 16:17:23,815 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 16:17:28,479 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 16:17:28,760 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 16:23:58,814 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 16:24:03,271 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 16:24:03,413 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 17:34:59,408 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 17:35:05,057 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 17:35:05,264 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 17:39:40,087 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 17:39:45,784 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 17:39:45,950 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-22 17:49:21,673 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-22 17:49:26,109 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-22 17:49:26,261 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 19:39:09,227 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 19:39:14,966 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 19:39:15,156 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 19:42:47,823 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 19:42:52,677 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 19:42:52,905 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 19:48:08,442 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 19:48:13,282 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 19:48:13,486 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 19:50:50,936 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 19:50:56,901 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 19:50:57,094 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 23:50:00,778 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 23:50:05,942 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 23:50:06,122 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 23:52:52,449 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 23:52:58,440 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 23:52:58,733 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 23:54:06,890 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 23:54:11,974 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 23:54:12,300 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 23:57:34,425 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 23:57:38,809 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 23:57:38,971 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-24 23:59:30,565 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-24 23:59:36,222 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-24 23:59:36,392 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:12:41,087 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:12:45,939 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:12:46,100 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:15:05,351 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:15:09,935 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:15:10,119 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:19:38,366 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:19:42,427 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:19:42,610 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:21:12,582 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:21:18,275 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:21:18,549 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:29:27,930 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:29:32,516 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:29:32,692 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:32:18,379 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:32:23,200 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:32:23,408 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 00:33:37,446 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 00:33:41,938 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 00:33:42,115 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:16:59,324 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 09:17:03,743 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 09:17:03,957 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:47:52,715 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 09:47:58,708 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 09:47:59,265 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:47:59,265 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 09:48:00,283 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 09:48:00,284 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 09:48:01,393 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 09:48:10,690 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 09:48:13,759 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 09:48:16,830 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 09:48:20,018 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 09:50:43,365 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 09:50:47,665 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 09:50:48,225 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:50:48,225 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 09:50:49,249 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 09:50:49,250 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 09:50:50,381 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 09:50:59,710 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 09:51:02,737 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 09:51:05,779 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 09:51:08,967 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 09:51:24,406 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 09:51:28,765 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 09:51:29,381 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:51:29,381 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 09:51:30,437 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 09:51:30,438 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 09:51:31,552 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 09:51:37,812 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 09:51:40,868 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 09:51:43,927 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 09:56:11,169 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 09:56:15,492 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 09:56:16,068 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 09:56:16,068 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 09:56:17,056 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 09:56:17,056 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 09:56:18,191 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 09:56:27,543 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 09:56:32,801 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 09:56:33,078 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 09:56:44,192 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 10:47:16,920 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 10:47:21,368 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 10:47:21,948 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 10:47:21,948 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 10:47:23,021 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 10:47:23,021 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 10:47:24,249 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 10:47:33,597 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 10:47:38,910 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 10:47:39,260 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 10:47:50,408 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 10:49:27,117 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 10:49:31,533 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 10:49:32,112 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 10:49:32,112 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 10:49:33,176 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 10:49:33,176 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 10:49:34,380 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 10:49:43,734 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 10:49:49,013 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 10:49:49,318 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 10:50:00,455 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 11:58:44,097 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 11:58:49,620 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 11:58:50,463 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 11:58:50,471 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 11:58:51,990 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 11:58:51,990 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 11:58:54,417 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 11:59:03,920 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 11:59:09,296 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 11:59:09,742 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 11:59:21,087 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 13:04:03,578 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:04:11,249 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:04:11,928 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:04:11,928 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:04:13,422 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:04:13,422 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:04:15,512 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:04:21,790 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:04:27,042 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:04:27,367 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:06:50,975 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:06:58,811 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:06:59,403 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:06:59,403 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:07:00,623 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:07:00,623 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:07:01,645 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:07:07,881 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:07:13,088 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:07:13,369 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:12:40,726 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:12:48,488 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:12:49,052 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:12:49,053 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:12:50,179 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:12:50,179 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:12:51,211 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:12:57,428 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:13:02,635 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:13:02,912 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:13:13,642 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 13:17:02,345 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:17:09,453 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:17:10,029 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:17:10,029 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:17:11,293 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:17:11,293 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:17:13,251 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:17:19,528 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:17:24,796 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:17:25,137 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:17:35,942 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 13:23:40,040 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:23:48,052 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:23:48,666 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:23:48,666 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:23:49,970 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:23:49,970 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:23:51,880 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:23:58,137 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:24:03,408 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:24:03,743 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:24:15,037 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 13:29:48,036 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:29:57,062 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:29:57,645 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:29:57,645 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:29:58,908 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:29:58,908 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:29:59,927 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:30:06,150 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:30:11,376 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:30:11,675 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:30:22,429 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 13:34:27,874 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 13:34:34,808 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 13:34:35,346 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 13:34:35,346 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 13:34:36,525 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 13:34:36,526 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 13:34:37,545 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 13:34:43,762 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 13:34:48,989 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 13:34:49,327 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 13:35:00,097 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:05:14,896 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:05:22,810 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:05:23,440 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:05:23,440 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:05:24,720 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:05:24,720 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:05:25,969 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:05:32,253 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:05:37,535 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:05:37,882 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:05:49,098 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:06:13,857 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:06:13,937 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:08:57,019 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:09:04,374 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:09:05,089 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:13:59,632 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:14:08,852 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:14:09,526 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:14:09,526 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:14:10,725 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:14:10,725 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:14:12,706 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:14:18,999 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:14:24,276 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:14:24,630 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:14:35,860 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:15:00,437 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:15:00,516 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:26:12,912 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:26:21,251 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:26:21,871 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:26:21,872 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:26:23,020 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:26:23,020 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:26:25,002 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:26:31,296 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:26:36,588 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:26:36,933 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:26:48,189 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:27:12,864 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:27:12,946 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:28:12,330 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:28:20,502 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:28:21,141 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:28:21,141 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:28:22,362 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:28:22,362 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:28:23,408 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:28:29,701 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:28:34,973 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:28:35,324 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:28:46,475 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:29:11,011 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:29:11,092 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:32:38,015 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:32:47,374 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:32:48,022 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:32:48,022 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:32:49,340 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:32:49,341 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:32:51,328 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:32:57,614 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:33:02,917 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:33:03,278 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:33:14,544 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:33:39,283 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:33:39,362 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:33:58,754 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 16:36:59,243 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:37:06,697 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:37:07,349 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:37:07,349 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:37:08,529 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:37:08,530 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:37:10,479 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:37:16,758 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:37:22,043 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:37:22,395 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:37:33,492 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:37:58,661 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:37:58,753 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:38:10,976 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 16:45:38,254 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:45:46,904 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:45:47,566 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:45:47,566 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:45:48,696 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:45:48,696 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:45:50,845 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:45:57,128 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:46:02,401 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:46:02,737 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:46:13,874 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:46:38,392 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:46:38,489 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:46:50,671 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 16:48:21,983 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:48:30,614 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:48:31,330 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:48:31,330 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:48:32,453 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:48:32,453 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:48:33,512 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:48:39,788 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:48:45,055 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:48:45,399 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:48:56,572 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:49:21,291 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:49:21,372 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:49:33,583 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 16:51:24,498 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 16:51:32,194 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 16:51:32,886 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 16:51:32,886 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 16:51:34,023 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 16:51:34,023 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 16:51:35,155 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 16:51:41,426 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 16:51:46,711 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 16:51:47,053 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 16:51:58,210 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 16:52:22,846 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 16:52:22,953 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 16:52:35,189 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 17:02:43,008 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 17:02:51,541 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 17:02:52,205 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 17:02:52,205 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 17:02:53,289 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 17:02:53,289 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 17:02:54,514 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 17:03:00,786 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 17:03:06,068 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 17:03:06,429 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 17:03:17,635 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 17:03:42,210 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 17:03:42,291 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 17:03:54,495 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully
+INFO    2022-04-25 17:23:21,269 [main] UserLoginTest.TestRunner  - Driver is initialized!!
+INFO    2022-04-25 17:23:25,623 [main] UserLoginTest.TestRunner  - Navigating to the required url!!
+INFO    2022-04-25 17:23:26,261 [main] UserLoginTest.TestRunner  - Login into the application
+INFO    2022-04-25 17:23:26,261 [main] UserLoginTest.TestRunner  - Filling the details from excel sheet
+INFO    2022-04-25 17:23:27,446 [main] UserLoginTest.TestRunner  - Going to the Projects Page
+INFO    2022-04-25 17:23:27,447 [main] UserLoginTest.TestRunner  - Validating the URL
+INFO    2022-04-25 17:23:28,884 [main] UserLoginTest.TestRunner  - Selecting the technology
+INFO    2022-04-25 17:23:35,246 [main] UserLoginTest.TestRunner  - Searching Items present in the list
+INFO    2022-04-25 17:23:40,599 [main] UserLoginTest.TestRunner  - Searching for items not present in the list
+INFO    2022-04-25 17:23:41,000 [main] UserLoginTest.TestRunner  - Checking whether Apply button is working or not
+INFO    2022-04-25 17:23:52,190 [main] UserLoginTest.TestRunner  - Validating view applied position URL
+INFO    2022-04-25 17:24:16,946 [main] UserLoginTest.TestRunner  - Clicking on the View Profile Page Button
+INFO    2022-04-25 17:24:17,041 [main] UserLoginTest.TestRunner  - Successfully got Into View profile tab
+INFO    2022-04-25 17:24:29,300 [main] UserLoginTest.TestRunner  - Profile Pic updated Successfully

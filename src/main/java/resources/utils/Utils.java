@@ -52,8 +52,8 @@ public class Utils extends BaseClass
 
 
     /*To wait for certain seconds*/
-    public static void wait(int timeInSeconds) throws InterruptedException {
-        Thread.sleep(timeInSeconds);
+    public static void wait(int timeInMilliSeconds) throws InterruptedException {
+        Thread.sleep(timeInMilliSeconds);
     }
 
 
