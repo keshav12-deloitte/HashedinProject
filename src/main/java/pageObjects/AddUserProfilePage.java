@@ -50,7 +50,7 @@ public class AddUserProfilePage {
     }
 
     public String adminAddingManager(int rowToChoose) throws InterruptedException, IOException {
-
+        Thread.sleep(3000);
         WebElement userProfileBtn = driver.findElement(addUserprofileBtn);
         userProfileBtn.click();
         String excelFilePath = "src/main/java/resources/dataSheets/employeeAndManagerSignup.xlsx";//path of the excel File
@@ -96,11 +96,11 @@ public class AddUserProfilePage {
 
             }
         }
-
+        // Thread.sleep(3000);
         driver.findElement(addname).sendKeys(nameOfManager);
-
+        // Thread.sleep(3000);
         driver.findElement(addusername).sendKeys(userName);
-
+        //  Thread.sleep(3000);
         if(rowToChoose==2){
             driver.findElement(addpassword).sendKeys("");
         }
@@ -108,31 +108,37 @@ public class AddUserProfilePage {
             driver.findElement(addpassword).sendKeys(password);
 
 
-
+        //  Thread.sleep(3000);
         WebElement dropRole = driver.findElement(dropDownRole);
         Select Role = new Select(dropRole);
         Role.selectByVisibleText("Manager");
-
+        //  Thread.sleep(3000);
         WebElement skills = driver.findElement(skillsDropdown);
         skills.click();
-
+        // Thread.sleep(3000);
         WebElement addingSkills = driver.findElement(addingSkill);
         addingSkills.click();
-
+        //   Thread.sleep(3000);
         WebElement DesignationDropdown = driver.findElement(specializationDropdown);
         Select Designation = new Select(DesignationDropdown);
         Designation.selectByVisibleText("Backend");
+        //   Thread.sleep(3000);
         WebElement band = driver.findElement(bandDropdown);
         Select bandType = new Select(band);
         bandType.selectByVisibleText("B5");
         driver.findElement(addemail).sendKeys(emailOfManager);
+        // Thread.sleep(3000);
         driver.findElement(addphonenumber).sendKeys(String.valueOf(ContactNumber));
+        //driver.findElement(addphonenumber).sendKeys();
+        //  Thread.sleep(3000);
         driver.findElement(addaddress).sendKeys(City);
+        Thread.sleep(4000);
         WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Add Profile')]")));
         WebElement submitBtn = driver.findElement(submit);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", submitBtn);
+        //submitBtn.click();
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(addedbtn));
         WebElement okBtn = driver.findElement(addedbtn);
         Thread.sleep(2000);
@@ -144,6 +150,8 @@ public class AddUserProfilePage {
     }
 
     public String adminAddingEmployee(int rowToChoose) throws InterruptedException, IOException {
+
+        //Thread.sleep(3000);
         WebElement userProfileBtn = driver.findElement(addUserprofileBtn);
         userProfileBtn.click();
         String excelFilePath = "src/main/java/resources/dataSheets/employeeAndManagerSignup.xlsx";//path of the excel File
@@ -189,40 +197,46 @@ public class AddUserProfilePage {
 
             }
         }
-
+        // Thread.sleep(3000);
         driver.findElement(addname).sendKeys(nameOfEmployee);
-
+        //  Thread.sleep(3000);
         driver.findElement(addusername).sendKeys(userName);
-
+        //  Thread.sleep(3000);
         if(rowToChoose==2){
             driver.findElement(addpassword).sendKeys("");
         }
         else
             driver.findElement(addpassword).sendKeys(password);
+        // Thread.sleep(3000);
         WebElement dropRole = driver.findElement(dropDownRole);
         Select Role = new Select(dropRole);
         Role.selectByVisibleText("Employee");
+        // Thread.sleep(3000);
         WebElement skills = driver.findElement(skillsDropdown);
         skills.click();
-        //Thread.sleep(3000);
+        Thread.sleep(3000);
         WebElement addingSkills = driver.findElement(addingSkill);
         addingSkills.click();
-
+        //   Thread.sleep(3000);
         WebElement DesignationDropdown = driver.findElement(specializationDropdown);
         Select Designation = new Select(DesignationDropdown);
         Designation.selectByVisibleText("Backend");
-
+        // Thread.sleep(3000);
         WebElement band = driver.findElement(bandDropdown);
         Select bandType = new Select(band);
         bandType.selectByVisibleText("B5");
         driver.findElement(addemail).sendKeys(emailOfEmployee);
+        //  Thread.sleep(3000);
         driver.findElement(addphonenumber).sendKeys(String.valueOf(ContactNumber));
+        //  Thread.sleep(3000);
         driver.findElement(addaddress).sendKeys(City);
+        Thread.sleep(4000);
         WebDriverWait webDriverWait = new WebDriverWait(driver, 10);
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[contains(text(),'Add Profile')]")));
         WebElement submitBtn = driver.findElement(submit);
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].click();", submitBtn);
+        //submitBtn.click();
         Thread.sleep(3000);
         String employeeAddedSuccessfully = driver.findElement(By.xpath("//div[@class='swal-text']")).getText();
         WebElement okBtn = driver.findElement(addedbtn);

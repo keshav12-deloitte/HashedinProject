@@ -57,13 +57,13 @@ public class Utils extends BaseClass
     }
 
 
-    public static void extentScreenShotCapture(ExtentTest logInfo,String logInfoMsg,By guide) throws IOException {
-
-        WebElement element_node = driver.findElement(guide);
-        Utils.highlightElement(element_node);
-        logInfo.pass(logInfoMsg);
-        logInfo.addScreenCaptureFromPath(captureScreenShot(driver));
-
-    }
+//    public static void extentScreenShotCapture(ExtentTest logInfo,String logInfoMsg,By guide) throws IOException {
+//
+//        WebElement element_node = driver.findElement(guide);
+//        Utils.highlightElement(element_node);
+//        logInfo.pass(logInfoMsg);
+//        logInfo.addScreenCaptureFromPath(captureScreenShot(driver));
+//
+//    }
  }
 

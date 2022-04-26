@@ -2,7 +2,7 @@ package AdminFunctionalityTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-//import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -28,9 +28,9 @@ public class AdminNegativeTest3 extends BaseClass {
     WebDriver driver;
     String projectlink = "https://hashedin-frontend-urtjok3rza-wl.a.run.app/";
     public static Logger logger = Logger.getLogger(AdminNegativeTest3.class);
-//    static ExtentReports extent = new ExtentReports();
-//    static ExtentSparkReporter spark = new ExtentSparkReporter("AdminPositiveTestCase.html");
-//    ExtentTest test;
+    static ExtentReports extent = new ExtentReports();
+    static ExtentSparkReporter spark = new ExtentSparkReporter("AdminPositiveTestCase.html");
+    ExtentTest test;
 
     public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
 
@@ -45,7 +45,7 @@ public class AdminNegativeTest3 extends BaseClass {
 
     @BeforeTest
     public void setup() throws InterruptedException {
-//        extent.attachReporter(spark);
+        extent.attachReporter(spark);
         System.setProperty("webdriver.chrome.driver", "C:\\selenium jars and drivers\\drivers\\chrome drivers\\chromedriver.exe");
         driver = new ChromeDriver(); //launch browser
         logger.info("Chrome browser Launched successfully");
@@ -54,7 +54,7 @@ public class AdminNegativeTest3 extends BaseClass {
         driver.get(projectlink);//open Url
         logger.info("Url is Launched Successfully");
         test.pass("Successfully launched Browser and website");
-//        Thread.sleep(2000);
+        Thread.sleep(2000);
         driver.manage().window().maximize();// maximizing Window
     }
 

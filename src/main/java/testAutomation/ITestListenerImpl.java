@@ -24,16 +24,16 @@ public class ITestListenerImpl extends BaseClass implements ITestListener
 		System.out.println("PASS");
 	}
 
-	public void onTestFailure(ITestResult result) {
-		testcase.log(Status.FAIL, "Test is failed");
-		extent.flush();
-		ExtentReportListener extentReportListener=new ExtentReportListener();
-		try {
-			extentReportListener.captureScreenShot(driver);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
+//	public void onTestFailure(ITestResult result) {
+//		testcase.log(Status.FAIL, "Test is failed");
+//		extent.flush();
+//		ExtentReportListener extentReportListener=new ExtentReportListener();
+//		try {
+//			extentReportListener.captureScreenShot(driver);
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
+//	}
 
 	public void onTestSkipped(ITestResult result) {
 		testcase.log(Status.SKIP, "Test is skipped");
@@ -42,10 +42,10 @@ public class ITestListenerImpl extends BaseClass implements ITestListener
 	}
 
 
-	public void onStart(ITestContext context) {
-		System.out.println("Execution started....");
-		extent= setUp();
-	}
+//	public void onStart(ITestContext context) {
+//		System.out.println("Execution started....");
+//		extent= setUp();
+//	}
 
 	public void onFinish(ITestContext context) {
 		System.out.println("Execution completed...");

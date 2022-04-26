@@ -26,6 +26,7 @@ public class ManagerPage {
     public String viewAndDeleteManager() throws InterruptedException {
         WebElement employee = driver.findElement(managertab);
         employee.click();
+        //Thread.sleep(3000);
         WebDriverWait webDriverWait=new WebDriverWait(driver,10);
         WebElement element = driver.findElement(removeProfileloc);
         JavascriptExecutor js= (JavascriptExecutor)driver;

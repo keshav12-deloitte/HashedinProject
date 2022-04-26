@@ -3,7 +3,7 @@ package AdminFunctionalityTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-//import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
@@ -24,9 +24,9 @@ public class AdminNegativeTest2 extends BaseClass {
     WebDriver driver;
     String projectlink = "https://hashedin-frontend-urtjok3rza-wl.a.run.app/";
     public static Logger logger = Logger.getLogger(AdminNegativeTest2.class);
-//    static ExtentReports extent = new ExtentReports();
-//    static ExtentSparkReporter spark = new ExtentSparkReporter("AdminPositiveTestCase.html");
-//    ExtentTest test;
+    static ExtentReports extent = new ExtentReports();
+    static ExtentSparkReporter spark = new ExtentSparkReporter("AdminPositiveTestCase.html");
+    ExtentTest test;
     public static void takeSnapShot(WebDriver webdriver, String fileWithPath) throws Exception {
 
         TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
@@ -40,7 +40,7 @@ public class AdminNegativeTest2 extends BaseClass {
 
     @BeforeTest
     public void setup() throws InterruptedException {
-//        extent.attachReporter(spark);
+        extent.attachReporter(spark);
         test = extent.createTest("verifyAdminLoginPage");
         System.setProperty("webdriver.chrome.driver", "C:\\selenium jars and drivers\\drivers\\chrome drivers\\chromedriver.exe");
         driver = new ChromeDriver(); //launch browser

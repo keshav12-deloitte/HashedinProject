@@ -8,14 +8,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeTest;
 import resources.utils.Utils;
-import testAutomation.ExtentReportListener;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-public class BaseClass extends ExtentReportListener {
+public class BaseClass {
     public static WebDriver driver;
     public static Properties properties;
 
