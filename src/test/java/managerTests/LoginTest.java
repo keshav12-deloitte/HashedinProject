@@ -3,9 +3,7 @@ import managerPageObjects.LoginClass;
 
 import com.aventstack.extentreports.ExtentTest;
 import org.apache.log4j.Logger;
-import org.testng.annotations.BeforeClass;
-
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import resources.baseClass.BaseClass;
 import resources.utils.Utils;
@@ -22,11 +20,12 @@ public class LoginTest extends BaseClass {
         super();
     }
 
+    //@BeforeMethod
     @BeforeClass
     public void launchUrl() throws IOException {
 
        // test = extent.createTest("launchUrl");     // Creating right side test
-        logInfo = test.createNode("Launching the URL");    // Creating node which will store the screenshots
+        //logInfo = test.createNode("Launching the URL");    // Creating node which will store the screenshots
         driver = initializeDriver();
         logger.info("Driver is initialized!!");
 
@@ -40,7 +39,7 @@ public class LoginTest extends BaseClass {
         Utils.deleteAllCookies();
 
     }
-    @Test(priority = 1)
+    @Test(priority = 21)
 
     private static void invalidLogin() throws IOException, InterruptedException {
         logger.info("Login into the application");
@@ -51,7 +50,7 @@ public class LoginTest extends BaseClass {
         loginClass.fillDetails(1); //row 1 of excel contains wrong login credentials
         loginClass.handleBox();
     }
-    @Test(priority = 2)
+    @Test(priority = 22)
     public void emptyLogin() throws IOException {
         logger.info("Login into the application");
         //test = extent.createTest("Log In");     // Creating right side test
@@ -61,7 +60,7 @@ public class LoginTest extends BaseClass {
         loginClass.emptyDetails();
     }
 
-    @Test(priority = 3)
+    @Test(priority = 23)
     public void validLogin() throws IOException {
         logger.info("Login into the application");
         //test = extent.createTest("Log In");     // Creating right side test
@@ -69,6 +68,12 @@ public class LoginTest extends BaseClass {
         // Creating node which will store the screenshots
         LoginClass loginClass = new LoginClass();
         loginClass.fillDetails(2);
+    }
+    //@AfterMethod
+    @AfterClass
+    public void afterTest() {
+        //extent.flush();
+        driver.close();
     }
 
 
