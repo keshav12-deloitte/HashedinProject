@@ -35,12 +35,15 @@ public class ViewAppliedPositionPage extends BaseClass {
 
     public String checkViewAppliedUrl(){
         viewAppliedBtn.click();
+        Utils.takeScreenShot("UserViewApplied");
         String url = driver.getCurrentUrl();
         return url;
     }
 
     public void viewProjectDetails() throws InterruptedException {
         viewProjectBtn.click();
+        Utils.wait(2000);
+        Utils.takeScreenShot("UserAppliedProjectDetails");
        // Utils.wait(3);
 //        String actual = projectName.getText();
 //        System.out.println("name is" + actual);
@@ -49,14 +52,19 @@ public class ViewAppliedPositionPage extends BaseClass {
     public void deletePosition() throws InterruptedException {
         driver.navigate().back();
         Utils.wait(3000);
+        Utils.takeScreenShot("UserPageDeleteBtn");
         deleteBtn.click();
-        Utils.wait(5000);
+        Utils.wait(3000);
+        Utils.takeScreenShot("UserPageCancelBtn");
         cancelBtn.click();
-        Utils.wait(5000);
+        Utils.wait(3000);
+        Utils.takeScreenShot("UserPageCancelOKBtn");
         cancelOkBtn.click();
-        Utils.wait(5000);
+        Utils.wait(3000);
+        Utils.takeScreenShot("UserPageDeleteBtn");
         deleteBtn.click();
-        Utils.wait(5000);
+        Utils.wait(2000);
+        Utils.takeScreenShot("UserPageConfirmOk");
         confirmOkBtn.click();
     }
 }

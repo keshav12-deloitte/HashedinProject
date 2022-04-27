@@ -6,6 +6,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import resources.baseClass.BaseClass;
 
+import javax.imageio.ImageIO;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -65,5 +69,15 @@ public class Utils extends BaseClass
 //        logInfo.addScreenCaptureFromPath(captureScreenShot(driver));
 //
 //    }
+public static void takeScreenShot(String fileName){
+    try {
+
+        String filePath = "src/main/java/ManagerScreenShots/"+fileName+".png";
+        BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
+        ImageIO.write(image, "png", new File(filePath));
+    }catch (IOException | AWTException exception){
+        exception.printStackTrace();
+    }
+}
  }
 

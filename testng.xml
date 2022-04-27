@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testAutomation.ExtentReport"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/vuchander/HashedinProject_Selenium">
+        <classes>
+            <class name="AdminFunctionalityTest.AdminPositiveTest">
+                <methods>
+                    <include name="verifyAdminLoginPage"/>
+                    <include name="verifyAdduserProfileTab"/>
+                    <include name="verifyEmployeeTab"/>
+                    <include name="verifyManagerTab"/>
+                </methods>
+            </class>
+            <class name="AdminFunctionalityTest.TestOperation">
+                <methods>
+                    <include name="loginOperation"/>
+                    <include name="ViewProject"/>
+                    <include name="technologyOperations"/>
+                    <include name="bandOperations"/>
+                    <include name="specializationOperations"/>
+                    <include name="viewProfileOperations"/>
+                </methods>
+            </class>
+            <class name="UserLoginTest.TestRunner">
+                <methods>
+                    <include name="fillDetails"/>
+                    <include name="checkUrl"/>
+                    <include name="selectItems"/>
+                    <include name="positiveSearch"/>
+                    <include name="negativeSearch"/>
+                    <include name="checkApplyBtn"/>
+                    <include name="validateViewAppliedUrl"/>
+                    <include name="viewProject"/>
+                    <include name="deleteProject"/>
+                    <include name="ProfilePage"/>
+                </methods>
+            </class>
+            <class name="managerTests.LoginTest">
+                <methods>
+                    <include name="invalidLogin"/>
+                    <include name="emptyLogin"/>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="managerTests.ProjectsTest">
+                <methods>
+                    <include name="addVacancy"/>
+                    <include name="removeVacancy"/>
+                    <include name="acceptVacancy"/>
+                </methods>
+            </class>
+            <class name="managerTests.AddProjectTest">
+                <methods>
+                    <include name="addProject"/>
+                </methods>
+            </class>
+            <class name="managerTests.EditProjectTest">
+                <methods>
+                    <include name="editProject"/>
+                </methods>
+            </class>
+            <class name="managerTests.ViewProfileTest">
+                <methods>
+                    <include name="ProfilePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

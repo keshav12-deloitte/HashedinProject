@@ -47,6 +47,8 @@ public class LoginPage extends BaseClass {
         usernameField.sendKeys(emailValue);
         Utils.implicitWait(3);
         passwordField.sendKeys(String.valueOf(passwordValue));
+        Utils.takeScreenShot("UserLogin");
         loginBtn.click();
+
     }
 }
