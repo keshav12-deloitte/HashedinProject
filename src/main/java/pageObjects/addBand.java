@@ -41,6 +41,7 @@ public class addBand extends BaseClass {
         Thread.sleep(2000);
         Utils.implicitWait(20);
         WebElement addedSuccess=driver.findElement(By.xpath(addSucc));
+        Utils.takeScreenShot("Band added");
         Utils.implicitWait(20);
         String msg=addedSuccess.getText();
         Thread.sleep(2000);
@@ -66,6 +67,7 @@ public class addBand extends BaseClass {
                 Thread.sleep(2000);
                 Utils.implicitWait(10);
                 WebElement deleteSuccess=driver.findElement(By.xpath(deleteSucc));
+                Utils.takeScreenShot("Band deleted");
                 Utils.implicitWait(20);
                 deletemsg=deleteSuccess.getText();
                 Thread.sleep(2000);
@@ -85,6 +87,7 @@ public class addBand extends BaseClass {
         driver.findElement(By.xpath(addField)).click();
         Utils.implicitWait(10);
         driver.findElement(By.xpath(addBtn)).click();
+        Utils.takeScreenShot("Band empty");
         Thread.sleep(2000);
         String message=driver.findElement(By.name(emptyName)).getAttribute(Validate);
         Thread.sleep(2000);
@@ -97,6 +100,7 @@ public class addBand extends BaseClass {
         driver.findElement(By.xpath(addField)).sendKeys(Expected);
         Utils.implicitWait(10);
         driver.findElement(By.xpath(addBtn)).click();
+        Utils.takeScreenShot("Same Band");
         Thread.sleep(2000);
         WebElement samePopUp=driver.findElement(By.xpath(samePop));
         Utils.implicitWait(20);

@@ -43,6 +43,7 @@ public class addSpecialization extends BaseClass {
         Thread.sleep(2000);
         Utils.implicitWait(20);
         WebElement addedSuccess=driver.findElement(By.xpath(addSucc));
+        Utils.takeScreenShot("Specialization added");
         Utils.implicitWait(20);
         String addmsg=addedSuccess.getText();
         Thread.sleep(1500);
@@ -64,6 +65,7 @@ public class addSpecialization extends BaseClass {
                 WebElement element1 = driver.findElement(By.xpath(path));
                 JavascriptExecutor js= (JavascriptExecutor)driver;
                 js.executeScript(click, element1);
+                Utils.takeScreenShot("Specialization deleted");
                 Thread.sleep(2000);
                 Utils.implicitWait(10);
                 WebElement deleteSuccess=driver.findElement(By.xpath(deleteSucc));
@@ -85,6 +87,7 @@ public class addSpecialization extends BaseClass {
         driver.findElement(By.xpath(addField)).click();
         Utils.implicitWait(10);
         driver.findElement(By.xpath(addBtn)).click();
+        Utils.takeScreenShot("Empty Specialization");
         Thread.sleep(2000);
         String message=driver.findElement(By.name(emptyName)).getAttribute(Validate);
         Thread.sleep(1500);
@@ -96,6 +99,7 @@ public class addSpecialization extends BaseClass {
         driver.findElement(By.xpath(addField)).sendKeys(Expected);
         Utils.implicitWait(10);
         driver.findElement(By.xpath(addBtn)).click();
+        Utils.takeScreenShot("Same Specialization");
         Utils.implicitWait(10);
         WebElement samePopUp=driver.findElement(By.xpath(samePop));
         Thread.sleep(2000);

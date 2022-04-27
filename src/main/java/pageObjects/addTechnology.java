@@ -36,6 +36,7 @@ public class addTechnology extends BaseClass {
         driver.findElement(By.xpath(addBtn)).click();
         Utils.implicitWait(20);
         WebElement addedSuccess=driver.findElement(By.xpath(addSucc));
+        Utils.takeScreenShot("Technology added");
         Thread.sleep(2000);
         Utils.implicitWait(20);
         String msg=addedSuccess.getText();
@@ -60,6 +61,7 @@ public class addTechnology extends BaseClass {
                 Utils.implicitWait(20);
                 JavascriptExecutor js= (JavascriptExecutor)driver;
                 js.executeScript(click, element1);
+                Utils.takeScreenShot("Technology Deleted");
                 Utils.implicitWait(20);
                 WebElement deleteSuccess=driver.findElement(By.xpath(deleteSucc));
                 Thread.sleep(2000);
@@ -82,6 +84,7 @@ public class addTechnology extends BaseClass {
         driver.findElement(By.xpath(addField)).click();
         Utils.implicitWait(20);
         driver.findElement(By.xpath(addBtn)).click();
+        Utils.takeScreenShot("Empty Technology");
         Thread.sleep(2000);
         String message=driver.findElement(By.name(emptyName)).getAttribute(Validate);
         Thread.sleep(2000);
@@ -95,6 +98,7 @@ public class addTechnology extends BaseClass {
         driver.findElement(By.xpath(addBtn)).click();
         Utils.implicitWait(20);
         WebElement samePopUp=driver.findElement(By.xpath(samePop));
+        Utils.takeScreenShot("Empty Technology");
         Thread.sleep(2000);
         Utils.implicitWait(20);
         String samemsg=samePopUp.getText();

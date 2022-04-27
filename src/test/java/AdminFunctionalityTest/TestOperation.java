@@ -1,10 +1,9 @@
-package adminTest;
+package AdminFunctionalityTest;
 
 import com.aventstack.extentreports.ExtentTest;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pageObjects.*;
 import resources.baseClass.BaseClass;
 import resources.utils.Utils;
@@ -21,6 +20,7 @@ public class TestOperation extends BaseClass {
         super();
     }
 
+    //@BeforeMethod
     @BeforeClass
     public void launchUrl() throws IOException {
 
@@ -39,11 +39,11 @@ public class TestOperation extends BaseClass {
 
     }
 
-    @Test(priority = 1)
+    @Test(priority = 5)
     public void loginOperation() throws IOException {
-        logger.info("Login into the application");
-        test = extent.createTest("Log In");     // Creating right side test
-        logInfo = test.createNode("Entering user details");
+        //logger.info("Login into the application");
+        //test = extent.createTest("Log In");     // Creating right side test
+        //logInfo = test.createNode("Entering user details");
         // Creating node which will store the screenshots
         LoginPageAdmin2 loginPage = new LoginPageAdmin2();
         loginPage.fillDetails();
@@ -51,21 +51,21 @@ public class TestOperation extends BaseClass {
 //        viewProject.SearchProject(driver);
     }
 
-    @Test(priority=2)
+    @Test(priority=6)
     public void ViewProject() throws InterruptedException {
-        this.test = extent.createTest("verifyViewProjectTab");
+        //this.test = extent.createTest("verifyViewProjectTab");
         Project project=new Project();
         String msg=project.viewProject(driver);
         System.out.println(msg);
         Assert.assertEquals(msg,"Delete Successfull");
 //        logger.info("Newly Added project is removed/deleted Successfully");
-        this.test.pass("Successfully verified viewProjectTab");
+        //this.test.pass("Successfully verified viewProjectTab");
 
     }
 
-    @Test(priority = 3)
+    @Test(priority = 7)
     public void technologyOperations() throws InterruptedException {
-        this.test = extent.createTest("verifyaddTechnologyTab");
+        //this.test = extent.createTest("verifyaddTechnologyTab");
         addTechnology addtechnology=new addTechnology();
         String message=addtechnology.emptyTechnology();
         Utils.implicitWait(20);
@@ -85,9 +85,9 @@ public class TestOperation extends BaseClass {
         System.out.println(deletemsg);
     }
 
-    @Test(priority=4)
+    @Test(priority=8)
     public void bandOperations() throws InterruptedException {
-        this.test = extent.createTest("verifyaddBandTab");
+        //this.test = extent.createTest("verifyaddBandTab");
         addBand addband=new addBand();
         String message=addband.emptyBand();
         Utils.implicitWait(20);
@@ -107,9 +107,9 @@ public class TestOperation extends BaseClass {
         System.out.println(deletemsg);
     }
 
-    @Test(priority = 5)
+    @Test(priority = 9)
     public void specializationOperations() throws InterruptedException {
-        this.test = extent.createTest("verifyaddSpecializationTab");
+       // this.test = extent.createTest("verifyaddSpecializationTab");
         addSpecialization addspecialization=new addSpecialization();
         String emptymsg=addspecialization.emptyField();
         Utils.implicitWait(20);
@@ -129,13 +129,17 @@ public class TestOperation extends BaseClass {
         System.out.println(deletemsg);
 
     }
-    @Test(priority = 6)
-        public void viewProfileOperations(){
-        this.test = extent.createTest("verifyViewProfileTab");
+    @Test(priority = 10)
+    public void viewProfileOperations(){
+        //this.test = extent.createTest("verifyViewProfileTab");
         viewProfile viewprofile=new viewProfile();
         Utils.implicitWait(20);
-        viewprofile.checkProfilePagebtn();
-        Utils.implicitWait(20);
-        viewprofile.pofileOption();
+        viewprofile.profileOption();
+    }
+    //@AfterMethod
+    @AfterClass
+    public void afterTest() {
+        //extent.flush();
+        driver.close();
     }
 }

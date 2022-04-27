@@ -21,7 +21,7 @@ public class Project extends BaseClass {
     String project;
     String deleteMsg="Delete Successfull";
     String click="arguments[0].click();";
-    String expected="Test Vacancy";
+    String expected="new project demo";
 
     public String viewProject(WebDriver driver) throws InterruptedException {
         projectBtn.click();
@@ -39,6 +39,7 @@ public class Project extends BaseClass {
                 Utils.implicitWait(10);
                 JavascriptExecutor js= (JavascriptExecutor)driver;
                 js.executeScript(click, element1);
+                Utils.takeScreenShot("Project Deleted");
                 Thread.sleep(20);
                 WebElement deleteSuccess=driver.findElement(By.xpath(deleteSucc));
                 Thread.sleep(20);
