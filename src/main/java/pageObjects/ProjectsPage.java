@@ -1,5 +1,6 @@
 package pageObjects;
 
+import jdk.jshell.execution.Util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
@@ -54,6 +55,7 @@ public class ProjectsPage extends BaseClass {
     public String checkProjectFieldBtn(){
         projectField.click();
         String projectsUrl = driver.getCurrentUrl();
+        Utils.takeScreenShot("UserLoginPage");
         return projectsUrl;
     }
 
@@ -64,6 +66,7 @@ public class ProjectsPage extends BaseClass {
         Utils.wait(2000);
         Actions keyDown = new Actions(driver);
         keyDown.sendKeys(Keys.chord(Keys.DOWN, Keys.DOWN, Keys.ENTER)).perform();
+        Utils.takeScreenShot("SelectedTechnology");
         String textSelected = selectedTech.getText();
         System.out.println("The text that is selected is " + textSelected);
         return textSelected;
@@ -78,6 +81,7 @@ public class ProjectsPage extends BaseClass {
         projectField.click();
         Utils.wait(5000);
         searchForBtn.sendKeys("test");
+        Utils.takeScreenShot("PositiveSearchForTechnology");
         WebElement cardFinder = driver.findElement(By.xpath("//p[@class='ecard-text card-text']"));
         return cardFinder.isDisplayed();
     }
@@ -86,6 +90,7 @@ public class ProjectsPage extends BaseClass {
         searchForBtn.clear();
         Utils.implicitWait(5000);
         searchForBtn.sendKeys("negativeTest");
+        Utils.takeScreenShot("NegativeSearchForTechnology");
         WebElement cardFinder1 = driver.findElement(By.xpath("//b[normalize-space()='No project found with this name']"));
         return cardFinder1.isDisplayed();
     }
@@ -93,17 +98,21 @@ public class ProjectsPage extends BaseClass {
     public String applyForVacancy() throws InterruptedException {
         searchForBtn.clear();;
         searchForBtn.sendKeys("dont");
+        Utils.takeScreenShot("MyProject");
         viewDetailsBtn.click();
         projectName = driver.findElement(By.xpath("//div[@class='project-details-title']//h2//b")).getText();
         System.out.println("Project Name is " + projectName);
+        Utils.takeScreenShot("UserProjectDescription");
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView();", applyBtn);
         Utils.wait(5000);
         applyBtn.click();
+        Utils.takeScreenShot("UserApplyBtn");
         Utils.wait(5000);
         String actualMsg = successfulMsg.getText();
         System.out.println("actual is " + actualMsg);
         alertOkbtn.click();
+        Utils.takeScreenShot("UserAlertOK");
         return actualMsg;
     }
 }

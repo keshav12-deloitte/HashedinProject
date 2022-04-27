@@ -24,6 +24,7 @@ public class ViewProfilePage extends BaseClass {
     public String checkProfilePagebtn(){
         profileField.click();
         String profileUrl = driver.getCurrentUrl();
+        Utils.takeScreenShot("UserProfileUpdate");
         return profileUrl;
     }
 
@@ -36,6 +37,7 @@ public class ViewProfilePage extends BaseClass {
         Utils.wait(3000);
         updateProfileBtn.sendKeys(path);
         Utils.wait(3000);
+        Utils.takeScreenShot("UserUpdatedPic");
         confirmPic.click();
     }
 }
