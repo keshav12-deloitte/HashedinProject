@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import resources.utils.Utils;
 
 public class ManagerPage {
     WebDriver driver;
@@ -34,6 +35,7 @@ public class ManagerPage {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(confirmDelManagerLoc));
         WebElement deletingEmp=driver.findElement(confirmDelManagerLoc);
         String deltedSuccessfully=driver.findElement(By.xpath("//div[@class='swal-text']")).getText();
+        Utils.takeScreenShot("DeletingManagerSuccessfully");
         deletingEmp.click();
         return deltedSuccessfully;
 

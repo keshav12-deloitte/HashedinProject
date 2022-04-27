@@ -34,6 +34,7 @@ public class EmployeePage extends BaseClass {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(confirmDelEmpLoc));
         WebElement deletingEmp=driver.findElement(confirmDelEmpLoc);
         String deltedSuccessfully=driver.findElement(By.xpath("//div[@class='swal-text']")).getText();
+        Utils.takeScreenShot("deletingEmployeeSuccessfully");
         deletingEmp.click();
         return deltedSuccessfully;
 
