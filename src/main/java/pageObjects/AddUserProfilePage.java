@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import resources.utils.Utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -143,6 +144,7 @@ public class AddUserProfilePage {
         WebElement okBtn = driver.findElement(addedbtn);
         Thread.sleep(2000);
         String managerAddedSuccessfully = driver.findElement(By.xpath("//div[@class='swal-text']")).getText();
+        Utils.takeScreenShot("ManagerAddedSuccessfully");
         okBtn.click();
         return managerAddedSuccessfully;
 
@@ -240,6 +242,7 @@ public class AddUserProfilePage {
         Thread.sleep(3000);
         String employeeAddedSuccessfully = driver.findElement(By.xpath("//div[@class='swal-text']")).getText();
         WebElement okBtn = driver.findElement(addedbtn);
+        Utils.takeScreenShot("EmployeeAddedSuccessfully");
         okBtn.click();
         return employeeAddedSuccessfully;
     }

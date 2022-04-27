@@ -7,6 +7,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import resources.utils.Utils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -54,6 +55,7 @@ public class AdminLoginPage {
         }
         driver.findElement(username).sendKeys(userName);
         driver.findElement(password).sendKeys(passWord);
+        Utils.takeScreenShot("AdminLoginWithCredentials");
         WebElement loginButton = driver.findElement(loginBtn);
         loginButton.click();
 
