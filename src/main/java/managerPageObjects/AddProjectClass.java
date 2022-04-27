@@ -61,12 +61,14 @@ public class AddProjectClass extends BaseClass {
     public AddProjectClass() {
         PageFactory.initElements(driver, this);
     }
-    public void handleBox(){
+    public void handleBox() throws InterruptedException {
         Utils.implicitWait(3);
         String contentOfTerms = successTxt.getText();
         System.out.println(contentOfTerms);
         successOkBtn.click();
+        Utils.wait(3000);
         Utils.implicitWait(3);
+        Utils.wait(3000);
     }
     public String excelData(int rowno,int colno) throws IOException {
         String excelFilePath = properties.getProperty("managerExcelPath"); //Locating Excel File path
@@ -125,7 +127,7 @@ public class AddProjectClass extends BaseClass {
         okBtn.click();
         Utils.implicitWait(6);
         Thread.sleep(2000);
-        handleBox();
+        //handleBox();
 
     }
 }

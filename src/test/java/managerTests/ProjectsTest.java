@@ -4,9 +4,8 @@ import com.aventstack.extentreports.ExtentTest;
 import managerPageObjects.LoginClass;
 import managerPageObjects.ProjectsClass;
 import org.apache.log4j.Logger;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
-import org.testng.annotations.Test;
 import resources.baseClass.BaseClass;
 import resources.utils.Utils;
 
@@ -22,11 +21,12 @@ public class ProjectsTest extends BaseClass {
         super();
     }
 
+    //@BeforeMethod
     @BeforeClass
     public void launchUrl() throws IOException {
 
        // test = extent.createTest("launchUrl");     // Creating right side test
-        logInfo = test.createNode("Launching the URL");    // Creating node which will store the screenshots
+        //logInfo = test.createNode("Launching the URL");    // Creating node which will store the screenshots
         driver = initializeDriver();
         logger.info("Driver is initialized!!");
 
@@ -44,25 +44,30 @@ public class ProjectsTest extends BaseClass {
 
     }
 
-    @Test(priority = 1)
+    @Test(priority = 24)
     public static void addVacancy() throws InterruptedException, IOException {
         ProjectsClass projectsClass = new ProjectsClass();
         projectsClass.addingVacancy();
     }
 
-    @Test(priority =2)
+    @Test(priority =25)
     public static void removeVacancy() throws InterruptedException, IOException {
         ProjectsClass projectsClass = new ProjectsClass();
         projectsClass.removingVacancy();
 
     }
 
-    @Test(priority =3)
+    @Test(priority =26)
     public static void acceptVacancy() throws InterruptedException, IOException {
         ProjectsClass projectsClass = new ProjectsClass();
         projectsClass.acceptingVacancy();
     }
-
+    //@AfterMethod
+    @AfterClass
+    public void afterTest() {
+        //extent.flush();
+        driver.close();
+    }
 
 
 }

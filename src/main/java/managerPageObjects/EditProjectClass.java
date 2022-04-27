@@ -75,6 +75,7 @@ public class EditProjectClass extends BaseClass {
     public void editingProject() throws InterruptedException {
 
         JavascriptExecutor js = (JavascriptExecutor)driver;
+        Utils.wait(3000);
         viewDetailsBtn.click();
         Utils.implicitWait(3);
         editProjectBtn.click();
